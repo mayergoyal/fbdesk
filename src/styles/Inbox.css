@@ -1,0 +1,25 @@
+.inbox-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .inbox-container > div {
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+  }
+  
+  .inbox-container > div:nth-child(1) {
+    width: 25%;
+    background: #f7f9fc;
+  }
+  
+  .inbox-container > div:nth-child(2) {
+    width: 50%;
+    background: #fff;
+  }
+  
+  .inbox-container > div:nth-child(3) {
+    width: 25%;
+    background: #f3f6fb;
+  }
+  
